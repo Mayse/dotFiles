@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'vim-scripts/VimClojure'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ctrlpvim/ctrlp.vim'
+"Plugin 'tmhedberg/matchit'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,3 +51,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+"Use matchit that ships with vim
+runtime macros/matchit.vim
